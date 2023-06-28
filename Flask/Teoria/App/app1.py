@@ -16,7 +16,7 @@ app = Flask(__name__) # Para crear dicha instancia, debemos pasar como
                         # que route pertenece a flask.
 
 def hello_world():      # Función de python que realiza la magia. 
-    return 'Hello, World!'
+    return 'Hello, Worldito'
 
 # Nota 1. importante no nombrar el archivo como flask.py porque puede crear un 
 # conflicto con Flask
