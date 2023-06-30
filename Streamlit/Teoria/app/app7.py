@@ -16,10 +16,12 @@ latlong = {'NY': {'lat': 40.730610, 'lon': -73.935242},
            'London': {'lat': 51.509865,'lon': -0.118092},
            'Paris': {'lat': 48.864716, 'lon':2.349014},
            'Sao Paulo': {'lat': -23.533773,'lon': -46.625290},
-           'Rome': {'lat': 41.902782,'lon': 12.496366}
+           'Rome': {'lat': 41.902782,'lon': 12.496366},
+           "CDMX": {'lat': 19.432608, 'lon': -99.133209},
+           "Monterrey": {'lat': 25.670272, 'lon': -100.316166}
            }
 
-city = ['Paris', 'London', 'NY', 'Sao Paulo', 'Rome']
+city = ['Paris', 'London', 'NY', 'Sao Paulo', 'Rome', "CDMX", "Monterrey"]
 np.random.seed(12)
 city_random = np.random.choice(city, 244)
 
